@@ -3,48 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!--don't forgot to add media queries, viewport to make it compaltible to other sizes-->
 
     <title>About</title>
   </head>
   <body>      
+    <!--probably make div poition relative and hard code position to align heaeder wuth content?-->
     <header class="row">
 
-        <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                
+        <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-border">            
                 <div class="container">
-                    <div class ="col-md-1">
-                    </div>
-
-                    <div class ="col-md-8">
-
-                        <a class="navbar-brand" href="#">Daniel Tanoeihusada</a>
+                    <div class ="col-lg-1"> </div>
+                        <a class="navbar-brand mr-auto" href="#">Daniel Tanoeihusada</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                    </div>
-
-                    <div class ="col-md-2">
-
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
+                            <div class="navbar-nav ml-auto">
                             <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="portofolio.html">Portofolio</a>
+                            <a class="nav-item nav-link" href="portofolio.html">Portfolio</a>
                             <a class="nav-item nav-link" href="contact.html">Contact</a>
                             </div>
                         </div>
-
-                    </div>
-
-                    <div class ="col-md-1">
-                    </div>
                 </div>
-            
-
-
             </nav>
         </div>
     </header>
@@ -57,33 +44,27 @@
 
         <content class = "row">
 
-            <div class ="col-md-1">
+            <div class ="col-lg-1">
             </div>
 
-            <div class ="col-md-10">            
-                <!--change jumbotron width to 960 px in css-->
-                <div class="jumbotron" style="width: 960px;">
-                    <h1 class="display-4">About Me</h1>
+            <div class ="col-lg-10">            
+                <div class="jumbotron">
+                    <h1 class="headingFont display-4">About Me</h1>
                     <hr class="my-4">
 
-                    <div class="row">
-                        <div class="col-lg-3">
                             <!--add padding or margin to image to push the paragraph below down?-->
-                            <img class="img img-thumbnail" src="http://placehold.it/200x200">
-                        </div>
-                        <div class="col-lg-9">
-                          <h2>The Greatest Website Ever Made</h2>
+                    <img class="img img-thumbnail" src="http://placehold.it/200x200">
+                    <div class="col-lg-12">
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing
                           elit. Vitae cumque corporis quis sed, quod pariatur!
                           Officia aut tempore repellendus, culpa inventore
                           magnam accusamus nemo fugiat debitis voluptates
                           ratione omnis, nobis.</p>
 
-                        </div>
 
-                      </div>
+                    </div>
 
-                      <p>
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit. Mauris fermentum eros eu dignissim placerat. Ut
                         porta fermentum lectus, ut aliquet tortor posuere
@@ -111,15 +92,13 @@
 
             </div>
 
-            <div class ="col-md-1">
-            </div>
 
 
         </content>
 
     </div>
     
-    <footer class="page-footer font-small blue">
+    <footer class="footer">
 
         <div class="footer-copyright text-center py-3">
             © 2020 Copyright
@@ -132,3 +111,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
+
