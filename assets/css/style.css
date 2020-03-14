@@ -3,6 +3,14 @@
     color :#777777;
     box-sizing: border-box;
 }
+.img-thumbnail{
+    width: 200px;
+    height: 200px;
+}
+
+.col{
+    flex-grow: 0;
+}
 
 .clearfix::after {
     content: "";
@@ -21,6 +29,9 @@
 
 body {
     background-image: url("../images/geometric-leaves.png");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 header{
     margin-bottom: 40px;
@@ -59,10 +70,11 @@ header{
 .footer{
     background-color: #666666;
     border-top: 4px solid #4aaaa5;
+    margin-top: auto;
     
 }
 
-.footer-copyright{
+.card-text{
     color:#ffffff !important;
 
 }
@@ -78,15 +90,21 @@ header{
     margin: 0px 20px 20px 0px;
 }
 
+.responsive{
+    width: 350px;
+    height: 350px;
+}
+
 .absolute {
     position: absolute;
     text-align: center;    
     vertical-align: middle;
+    opacity: 70%;
     font-size: 24px;
-    width: 350px;
+    width: 100%;
     padding: 10px;
     color: #ffffff;
-    bottom: 0px;
+    bottom: 20%;
 }
 
 @media screen and (max-width: 992px) {
@@ -96,11 +114,15 @@ header{
 }
 
 @media screen and (max-width: 768px) {
+
     
 }
 
 @media screen and (max-width: 576px) {
-    
+    .responsive{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 320px) {
