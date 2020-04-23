@@ -1,17 +1,24 @@
-html {
+html, body {
+    min-height:100%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    background: rgb(14,44,54);
+    background: linear-gradient(180deg, rgba(14,44,54,1) 0%, rgba(82,145,158,1) 50%, rgba(149,154,127,1) 99%) no-repeat fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 body{
-    height: 100%;
     margin: 0;
-    background: rgb(2,0,36);
-    background-image: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 nav{
     background-color: transparent;
+    box-shadow: 1px 1px 0 transparent;
 }
 
 nav > div > ul > li > a {
@@ -24,8 +31,17 @@ nav > div > ul > li > a {
 
 .section{
     padding-top: 1rem;
-    padding-bottom: 1rem;
-    border: 2px solid whitesmoke;
+    padding-bottom: 5rem;
+    border: 2px solid rgba(175,190,195,1);
+    word-wrap: break-word
+    
+}
+
+.mugShot{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: -5rem;
 }
 
 .row{
@@ -33,8 +49,48 @@ nav > div > ul > li > a {
     margin-right: auto;
 }
 
-h4{
-    font-size: 2.92rem;
+h1{
+    font-size: 3.265rem;
     line-height: 110%;
-    color: white;
+    color: rgba(175,190,195,1);
+}
+
+h2{
+    font-size: 1.265rem;
+    line-height: 110%;
+    color: rgba(175,190,195,1);
+}
+
+p {
+    color: rgba(175,190,195,1);
+}
+
+.icons{
+    font-size: 2rem;
+    color: rgba(217,223,236,1);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.grid-list{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.item{
+    position: relative;
+    display: block;
+    padding: 1.2em;
+    width: 50%;
 }
