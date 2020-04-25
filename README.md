@@ -1,6 +1,6 @@
 # About Portfolio
 
-Deploted link:
+Deploted link: https://gidmp.github.io/DT-Portfolio/
 
 An updated version of my previous portfolio. Just like the previous version, it is still based on HTML and CSS but, instead of Bootstrap, I used Materialize as CSS framework
 
