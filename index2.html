@@ -17,7 +17,7 @@
     <title>Portofolio2</title>
 </head>
 <body>
-    <nav>
+    <!-- <nav>
         <div class="nav-wrapper">
           <ul id="nav-mobile" class="right">
             <li><a href="index2.html">About Me</a></li>
@@ -25,56 +25,141 @@
             <li><a href="contact2.html">Contact Me</a></li>
           </ul>
         </div>
-      </nav>
-      
-    <!-- see https://materializecss.com/templates/parallax-template/preview.html -->
-    <div class = "container center">
-        <div class = "section">
-            <div class = "row">
-                <div class = "col s12 center">
+    </nav> -->
+    <section id = "aboutMe">
+        <div class = "container center">
+            <div class = "section">
+                <div class = "row">
+                    <div class = "col s12 center">
 
-                    <h1>
-                        DANIEL 
-                    </h1>
+                        <h1>
+                            DANIEL 
+                        </h1>
 
-                    <p>
-                        Test test 1, 2, 3...Hi, My name is Daniel Luke Tanoeihusada. I am a Lab Assistant that manages
-                        Histology quality control in
-                        University of Washington Medical center, arguably one of the largest hospital in America.
-                        On the side, I am a coding bootcamp student in University of Washington. I was born 
-                        in Los Angeles and raised in America and sent back to the states in a quest that 
-                        everyone is in for. Building a good life.
-                    </p>
+                        <p id= "intro">
+                            Hi, My name is Daniel Luke Tanoeihusada and I am a Seattle-based coding bootcamp student at University of Washington
+                            aiming to become a software engineer.
+                            While I am not drowning my head in learning coding, I spend my day working as a Histology Trainee.
+                            I have a set of skills revolves around Design, HTML, CSS and JavaScript.
+                        </p>
 
-                    <p>
-                        My hobbies used to be playing video games and watching youtube 
-                        at home; extremely enjoyable but also a very unproductive one. Realizing that it will not pay any dividend, I decided to get out 
-                        of my comfort zone and try to learn coding, which I found surprisingly enjoyable. 
-                        Sure, it is not the easiest thing to learn, but learning how to build a webpage
-                        and solving tough puzzle-like problems are really fascinating. Then again, I am 
-                        still a newbie when it comes to this, so please go easy on me :).
-                    </p>
+            
 
-                    <p>
-                        I think being lost in life and having no sense of purpose is a very
-                        frustrating and demoralizing feeling, oh and I know it very well. 
-                        That is why, I believe, having a goal to walk towards to is 
-                        very important and I am really grateful that I am enrolled in this coding bootcamp.
-                        I hope that I have the strength to follow it through.
-                    </p>
 
+                    </div>
+                </div>
+            </div>
+            <img class="mugShot center circle responsive-img" src="assets/images/aboutMe.jpg">
+            
+            <div id = "resumeBtn" class = "center">
+                <a class="waves-effect waves-light btn-large" href = "./assets/Files/DanielTanoeihusada.pdf" target="_blank">Get My Resume</a>
+            </div>
+
+
+        </div>
+    </section> 
+
+    <section id = "portfolio">
+        <div class = "container">
+            <div class = "section">
+                <div class = "wrapper">
+                    <header class = "center">
+                        <h1>Portfolio</h1>
+                        <h2>The latest coding portfolio project focusing on HTML, CSS, Javascript and web API</h2>
+                    </header>
+
+                    <ul class = "grid-list cf_">
+                        <li class = "item">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./assets/portofolioImage/momentDayScheduler.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Work Day Scheduler<i class="material-icons right">more_vert</i></span>
+                                    <a class="githubBtn waves-effect waves-light btn-small" href = "https://github.com/gidmp/DT-HW5-MomentDayScheduler" target="_blank"><i class="icons fab fa-github-square left"></i>GitHub Repo</a>
+                                    <a class="waves-effect waves-light btn-small" href = "https://gidmp.github.io/DT-HW5-MomentDayScheduler/" target="_blank">See project</a>
+                                </div>
+                                <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Work Day Schedule<i class="material-icons right">close</i></span>
+                                <p>Work Day Scheduler is a simple app revolves around moment.JS that helps you manage your busy schedule in a day by day format</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class = "item">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./assets/portofolioImage/Screen Shot 2020-04-23 at 4.01.43 PM.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Treehouse<i class="material-icons right">more_vert</i></span>
+                                    <a class="githubBtn waves-effect waves-light btn-small" href = "https://github.com/gidmp/Treehouse" target="_blank"><i class="icons fab fa-github-square left"></i>GitHub Repo</a>
+                                    <a class="waves-effect waves-light btn-small" href = "https://gidmp.github.io/Treehouse/" target="_blank">See project</a>
+                                </div>
+                                <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Treehouse<i class="material-icons right">close</i></span>
+                                <p>Treehouse is a project developed for browsers and tailored for mobile responsiveness. Treehouseis a simple application that allows users to search musical concerts within your city and provide ticket prices and options to buy</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class = "item">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="./assets/portofolioImage/JavascriptQuiz.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">JS Quiz<i class="material-icons right">more_vert</i></span>
+                                    <a class="githubBtn waves-effect waves-light btn-small" href = "https://github.com/gidmp/DT-HW4-TimedQuiz" target="_blank"><i class="icons fab fa-github-square left"></i>GitHub Repo</a>
+                                    <a class="waves-effect waves-light btn-small" href = "https://gidmp.github.io/DT-HW4-TimedQuiz/" target="_blank">See project</a>
+                                </div>
+                                <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">JS Quiz<i class="material-icons right">close</i></span>
+                                <p>JS Quiz is a fun and simple time-based javascript quiz made by using HTML, CSS and vanilla Javascript</p>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
 
                 </div>
             </div>
-        </div>
-        <img class="mugShot center circle responsive-img" src="assets/images/aboutMe.jpg">
+            
 
-        <div class = "links center">
-            <a class="icons fab fa-github-square" href ="https://github.com/gidmp" target="_blank"></a>
-            <a class="icons fab fa-linkedin" href ="https://www.linkedin.com/in/daniel-tanoeihusada-0938a6105/" target="_blank"></a>
         </div>
+    </section>
 
-    </div>
+    <section id = "contactMe">
+        <div class = "container">
+            <div class = "section">
+                <div class = "wrapper">
+                    <header class = "center">
+                        <h1>Contact Me</h1>
+                        <h2>Reach out to me using this form or email me at <a id= "emailLink" href="mailto:danielluke08@gmail.com">danielluke08@gmail.com</a></h2>
+                    </header>
+
+                    <form class="waypoint"  id="contact-form">
+                        <input placeholder="Name" type="text" name="name" required="">
+                        <input placeholder="Enter email" type="email" name="email" required="">
+                        <textarea placeholder="Your Message" type="text" name="message"></textarea>
+                        <div id = "submitContactBtn" class = "center">
+                            <a class="waves-effect waves-light btn-large">Submit</a>
+                        </div>
+            
+                    </form>
+
+                </div>
+            </div>
+
+            <div class = "links center">
+                <a class="icons fab fa-github-square" href ="https://github.com/gidmp" target="_blank"></a>
+                <a class="icons fab fa-linkedin" href ="https://www.linkedin.com/in/danieltanoeihusada/" target="_blank"></a>
+            </div>
+
+        </div>
+    </section>
+
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
