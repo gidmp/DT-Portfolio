@@ -14,6 +14,7 @@ html, body {
 
 body{
     margin: 0;
+    height : 100%;
 }
 
 nav{
@@ -25,16 +26,30 @@ nav > div > ul > li > a {
     color: whitesmoke;
 }
 
+#aboutMe{
+    margin-top: 10vh;
+    
+}
+
+
+
 .container{
     width: 80%;
 }
 
 .section{
-    padding-top: 1rem;
-    padding-bottom: 5rem;
+    padding: 1rem 4rem 5rem 4rem;
     border: 2px solid rgba(175,190,195,1);
     word-wrap: break-word
     
+}
+
+#contactMe{
+    padding-top: 100px;
+}
+
+#submitContactBtn{
+    margin-top: 2rem;
 }
 
 .mugShot{
@@ -67,11 +82,11 @@ p {
 
 .links{
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 150px;
 }
 
 .icons{
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgba(217,223,236,1);
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -103,3 +118,65 @@ p {
 .card{
     width : 100%;
 }
+
+.card .card-content{
+    background-color: #fff2d7;
+}
+
+.card .card-reveal {
+    background-color: rgb(42, 86, 96);
+    opacity: 0.96;
+}
+
+.card-reveal > p {
+    color: rgb(175, 190, 195);
+}
+
+i.left{
+    margin-right: 0px;
+    color: orange;
+}
+
+.githubBtn{
+    padding-left: 2px;
+}
+
+textarea{
+    margin-top: 2rem;
+    height: 10rem;
+}
+
+#contact-form{
+    margin: 20px;
+    color: white;
+
+}
+
+#resumeBtn{
+    padding-bottom: 100px;
+}
+
+#emailLink{
+    color: orange;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-list{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+      }
+
+    .item{
+    position: relative;
+    display: block;
+    padding: 1.2em;
+    width: 100%;
+
+    }
+
+    .githubBtn{
+        margin-bottom: 5px;
+    }
+  }
