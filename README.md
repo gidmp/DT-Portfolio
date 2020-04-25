@@ -1,4 +1,12 @@
-# About Bootstrap-Portfolio
-This is a coding portofolio that contain an About Me page, featuring myself, a portfolio page and a contact page. Bootstrap were utilized for most of the components used to build this webpage.
+# About Portfolio
 
-The bootsrtap building blocks of the webpages were as follows: the Navigation bar and footer section of each page were made with combining boostrap navbar, grid and column. Each content of the page made with laying jumbotron over container. The portfolio page were designed by manioulating grid cards so that they collapsed in place properly. The contact page were made using bootsrap for that were slightly modified.
+An updated version of my previous portfolio. Just like the previous version, it is still based on HTML and CSS but, instead of Bootstrap, I used Materialize as CSS framework
+
+## What Changes
+1. Usage of Materialize instead of Boostrap CSS framework
+2. Updated the portfolio page with actual projects
+3. Added link to resume pdf, LinkedIn and Github repo
+4. Tailored to be more mobile-responsive
+
+
+
