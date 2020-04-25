@@ -1,5 +1,7 @@
 # About Portfolio
 
+Deploted link:
+
 An updated version of my previous portfolio. Just like the previous version, it is still based on HTML and CSS but, instead of Bootstrap, I used Materialize as CSS framework
 
 ## What Changes
@@ -9,4 +11,4 @@ An updated version of my previous portfolio. Just like the previous version, it 
 4. Tailored to be more mobile-responsive
 
 
-
+![](./assets/Files/portfoliogif.gif)
