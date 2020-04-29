@@ -10,5 +10,18 @@ An updated version of my previous portfolio. Just like the previous version, it 
 3. Added link to resume pdf, LinkedIn and Github repo
 4. Tailored to be more mobile-responsive
 
+## Prerequisites
+
+* none
+
+## Build With
+
+1. Visual Studio Code - source code editor
+2. Materialize - CSS framework
+
+## Author
+
+Daniel Luke Tanoeihusada
+
 
 ![](./assets/Files/portfoliogif.gif)
