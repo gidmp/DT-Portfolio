@@ -256,7 +256,6 @@ li{
 }
 
 .portfolio-img{
-    width: 50rem;
     flex: 1;
 }
 
@@ -387,7 +386,46 @@ textarea{
 }
 
 @media only screen and (max-width: 600px){
+
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .landing-text h1{
+        font-size: 7rem;
+    }
+
+    .landing-text h6 {
+        font-size: 1.3rem;
+    }
+
+    .about .container{
+        flex-direction: column;
+    }
+
+    .profile-img{
+        margin: 0 0 2rem 0;
+    }
+
+    .margin-right{
+        margin-right: 0rem;
+    }
+
+    .portfolio-item{
+        flex-direction: column;
+    }
+
+    .portfolio-img{
+        margin: 0 0 2rem 0;
+        order: 1;
+    }
     
+    .portfolio-description{
+        margin: 0;
+        order: 2;
+    }
+
 }
 
 
