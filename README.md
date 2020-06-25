@@ -23,4 +23,4 @@ An updated version of my previous portfoli
 Daniel Luke Tanoeihusada
 
 
-![](./assets/Files/portfoliogif.gif)
+![](./public/Files/portfolio.gif)
