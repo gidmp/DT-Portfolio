@@ -29,11 +29,19 @@ contactForm.on("submit", event => {
       comment: commentInput.val().trim()
     };
     console.log(userData);
-    postUserComment(userData.name, userData.email, userData.comment);
+    // postUserComment(userData.name, userData.email, userData.comment);
 
     emailInput.val("");
     nameInput.val("");
     commentInput.val("");
+
+    $.ajax("/api/contact", {
+        type: "POST",
+        data: userData
+      }).then(() => {
+        location.reload();
+    });
+
 
 });
 
