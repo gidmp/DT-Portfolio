@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="Assets/cssReset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/326ee3d75f.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="./stylesheets/style2.css">
+    <title>Portofolio2</title>
+</head>
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="landing-text">
+            <h1>Daniel Luke </h1>
+            <h6>Full-stack Web Developer</h6>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img">
+                <img src="./images/aboutMe.jpg" alt="">
+            </div>
+            <div class="about-details">
+                <div class="about-heading">
+                    <h1>About</h1>
+                </div>
+                <p>
+                    Hi, My name is Daniel Luke Tanoeihusada and I am a Seattle-based coding bootcamp student at University of Washington
+                    aiming to become a software engineer.
+                    While I am not drowning my head in learning coding, I spend my day working as a Histology Trainee.
+                    I have a set of skills revolves around Design, HTML, CSS and JavaScript.
+                </p>
+
+                <div id = "resume-button" class = "center">
+                    <a class="waves-effect waves-light btn-large" href = "./Files/DanielTanoeihusada.pdf" target="_blank">Get My Resume</a>
+                </div>    
+
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a class="icon-link" href ="https://github.com/gidmp" target="_blank">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon-link" href ="https://www.linkedin.com/in/danieltanoeihusada/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>        
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Skills</h1>
+            </div>
+            <div class="my-skills">
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Web Design</h1>
+                    <p>description</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Coding</h1>
+                    <p>description</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="about-details">
+                <div class="about-heading">
+                    <h1>Portfolio</h1>
+                    <h6>Here are some of my recent work</h6>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img margin-right ">
+                        <img src="./images/portofolioImage/momentDayScheduler.png" alt="moment-day-scheduler-app">
+                    </div> 
+                    <div class="portfolio-description half-width">
+                        <h1>Moment Day Scheduler</h1>
+                        <p>Work Day Scheduler is a simple app revolves around moment.JS that helps you manage your busy schedule in a day by day format</p>
+                        <a href="https://gidmp.github.io/DT-HW5-MomentDayScheduler/" class="cta">View App</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-description margin-right half-width">
+                        <h1>Treehouse</h1>
+                        <p>Treehouse is a simple application that allows users to search musical concerts within your city and provide ticket prices and options to buy</p>
+                        <a href="https://gidmp.github.io/Treehouse/" class="cta">View App</a>
+                    </div>
+                    <div class="portfolio-img">
+                        <img src="./images/portofolioImage/Screen Shot 2020-04-23 at 4.01.43 PM.png" alt="moment-day-scheduler-app">
+                    </div> 
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img margin-right ">
+                        <img src="./images/portofolioImage/JavascriptQuiz.png" alt="moment-day-scheduler-app">
+                    </div> 
+                    <div class="portfolio-description half-width">
+                        <h1>JS quiz</h1>
+                        <p>JS Quiz is a fun and simple time-based javascript quiz made by using HTML, CSS and vanilla Javascript</p>
+                        <a href="https://gidmp.github.io/DT-HW4-TimedQuiz/" class="cta">View App</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-me" id="contact-me">
+        <div class="container">
+            <div class="about-details">
+                <div class="about-heading">
+                    <h1>Contact</h1>
+                    <h6>Reach out to me using this form or email me at <a id= "emailLink" href="mailto:danielluke08@gmail.com">danielluke08@gmail.com</a></h6>
+                </div>
+
+                <form class="waypoint"  id="contact-form">
+                    <input placeholder="Name" id = "name-input" type="text" name="name" required="">
+                    <input placeholder="Enter email" id = "email-input" type="email" name="email" required="">
+                    <textarea id = "user-input" placeholder="Your Message" type="text" name="message"></textarea>
+                    <div id = "submit-contact-button" class = "center">
+                        <button type="submit" class="waves-effect waves-light btn-large">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; 2020 Daniel Luke Tanoeihusada</p>
+        
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+</body>
+</html>

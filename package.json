@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gidmp/Bootstrap-Portfolio.git"
+  },
+  "author": "Daniel Luke Tanoeihusada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gidmp/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/gidmp/Bootstrap-Portfolio#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "sequelize": "^6.1.0"
+  }
+}
